@@ -145,7 +145,7 @@ func parseValidator(validator []string) (map[string][]string, error) {
 			}
 		}
 	}
-	validatorMap[validatorName] = validator[1:]
+	//validatorMap[validatorName] = validator[1:]
 	validatorMap[validatorName] = append(validatorMap[validatorName], arr[1])
 	return validatorMap, nil
 }
