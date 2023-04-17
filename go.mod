@@ -1,4 +1,4 @@
-module homework
+module github.com/mirgalieva/valid
 
 go 1.19
 
